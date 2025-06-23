@@ -1,5 +1,7 @@
 # 🛡️ SecureMyPC
 
+![Status](https://img.shields.io/badge/status-active-success)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 **SecureMyPC** is a beginner-friendly cybersecurity toolkit designed to audit and improve the security of a Linux system. Built after completing the [TryHackMe Pre Security](https://tryhackme.com/p/SuperNVicious) path, this project applies real-world concepts like system hardening, network scanning, and cyber hygiene.
 
 ---
@@ -13,69 +15,32 @@
   - Verifies firewall (UFW) status
   - Shows users with sudo privileges
   - Detects potentially dangerous SUID files
-
----
+- 📡 **Packet Sniffer**
+  - Captures live packets using Scapy
+  - Displays protocol, source & destination
+  - Works with basic filtering (optional)
 
 ## 📂 Project Structure
-
 SecureMyPC/
-├── audit.sh # System audit script
-├── README.md # Project overview
-
+├── audit.sh           # System audit script
+├── packet_sniffer.py  # Python packet sniffer (Scapy)
+├── .gitignore         # Project cleanup rules
+├── LICENSE            # MIT License
+└── README.md          # You are here
 yaml
 Copy
 Edit
 
 ---
-
-## 🚀 How to Use
-
-### 🔧 Run the Audit Script
-
-```bash
-chmod +x audit.sh
-./audit.sh
-# 🛡️ SecureMyPC
-
-**SecureMyPC** is a beginner-friendly cybersecurity toolkit designed to audit and improve the security posture of a Linux system. This project was built after completing the [TryHackMe Pre Security](https://tryhackme.com/p/SuperNVicious) learning path, applying real-world concepts such as system auditing, network security, and cyber hygiene.
-
----
-
-## 📌 Features
-
-- 🔍 **System Audit Script** (`audit.sh`):
-  - Checks for pending system updates
-  - Lists open ports and services
-  - Displays logged-in users
-  - Verifies firewall (UFW) status
-  - Shows users with sudo privileges
-  - Detects potentially dangerous SUID files
-
----
-
-## 📂 Project Structure
-
-SecureMyPC/
-├── audit.sh # System audit script
-├── network_scanner.py # (Planned) Local network scanner
-├── password_checker.py # (Planned) Password strength tester
-├── report.md # (Optional) Output summary
-└── README.md # This file
-
-yaml
-Copy
-Edit
-
----
-
 ## 🚀 How to Use
 
 ### 🔧 Run the Audit Script
 
 Make the script executable:
 ```bash
-chmod +x audit.sh or bash audit.sh
-Then run it:
+chmod +x audit.sh
+./audit.sh
+
 
 bash
 Copy
@@ -99,9 +64,9 @@ Create a personal cybersecurity project to demonstrate applied knowledge
 🎓 Certificate
 Completed the Pre Security learning path on 21st June 2025 via TryHackMe.
 
-🖼️ View Certificate: https://tryhackme.com/p/SuperNVicious
+📜 **View Certificate**: [https://tryhackme.com/p/SuperNVicious](https://tryhackme.com/p/SuperNVicious)
 
 📫 Contact
 Niranjan Chennakrishnasrinivasan
-🔗 LinkedIn:www.linkedin.com/in/niranjan-chennakrishnasrinivasan-499063299
+🔗 LinkedIn:www.linkedin.com/in/niranjan-chennakrisnasrinivasan-499063299
 📧 Email: niranjanchennakrishnan@gmail.com
