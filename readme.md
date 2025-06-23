@@ -47,13 +47,15 @@ Copy
 Edit
 ./audit.sh
 Note: Some parts of the script may require sudo access (e.g., firewall, open ports, SUID files).
+```
 ## 🕵️ Packet Sniffer 
 simple Python-based sniffer built with Scapy to monitor incoming packets.
-
-> Usage:  
 ```bash
+> Usage:  
+
 sudo python3 packet_sniffer.py
 
+```
 🎯 Learning Objectives
 Reinforce core Linux & networking skills from TryHackMe Pre Security
 
@@ -70,3 +72,6 @@ Completed the Pre Security learning path on 21st June 2025 via TryHackMe.
 Niranjan Chennakrishnasrinivasan
 🔗 LinkedIn:www.linkedin.com/in/niranjan-chennakrisnasrinivasan-499063299
 📧 Email: niranjanchennakrishnan@gmail.com
+<!-- Minor formatting tweak -->
+_Last updated: June 21, 2025_
+_Minor update for sync._
