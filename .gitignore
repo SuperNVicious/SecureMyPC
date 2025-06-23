@@ -1,0 +1,22 @@
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# OS/Editor files
+.DS_Store
+*.swp
+*.swo
+desktop.ini
+
+# Logs & Captures
+*.log
+*.pcap
+
+# Reports (optional)
+report.md
+
+# Backup/temp
+*~
+*.bak
+*.tmp
